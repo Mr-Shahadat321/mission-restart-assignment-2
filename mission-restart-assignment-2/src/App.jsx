@@ -18,7 +18,7 @@ function App() {
   return (
     <>
   <NavBar></NavBar>
-  <ProgressCard ></ProgressCard>
+  <ProgressCard progress={progress}></ProgressCard>
   <Suspense fallback = {<h2>Ticket are loading</h2>}>
   <CustomerTicket
    fetchTicketPromises = {fetchTicketPromises}

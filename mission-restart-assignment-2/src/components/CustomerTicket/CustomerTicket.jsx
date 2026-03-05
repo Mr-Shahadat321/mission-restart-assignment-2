@@ -5,7 +5,6 @@ const CustomerTicket = ({
   fetchTicketPromises,
   tickets,
   setTickets,
-  progress,
   setProgress,
 }) => {
   const ticketData = use(fetchTicketPromises);
