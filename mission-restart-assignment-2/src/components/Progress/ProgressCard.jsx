@@ -9,7 +9,7 @@ const ProgressCard = () => {
         <h1 className="text-5xl font-bold text-white">0</h1>
       </div>
       <div className="h-40 linearGradient2 flex items-center justify-center flex-col rounded-xl">
-        <p className="text-xl text-white">In-Progress</p>
+        <p className="text-xl text-white">Resolved</p>
         <h1 className="text-5xl font-bold text-white">0</h1>
       </div>
     </div>
