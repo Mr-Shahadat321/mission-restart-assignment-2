@@ -45,9 +45,9 @@ const CustomerTicket = ({
   };
 
   return (
-    <div className="w-11/12 mx-auto mt-6 grid grid-cols-12 gap-6">
+    <div className="w-11/12 mx-auto mt-6 grid grid-cols-1 md:grid-cols-12 gap-6">
       {/* LEFT SIDE */}
-      <div className="col-span-9 grid grid-cols-2 gap-4">
+      <div className="md:col-span-9 grid grid-cols-1 sm:grid-cols-2 gap-4">
         {tickets
           .filter((ticket) => ticket.status === "open")
           .map((ticket) => (
@@ -85,7 +85,7 @@ const CustomerTicket = ({
           ))}
       </div>
       {/* RIGHT SIDE */}
-      <div className="col-span-3 bg-gray-50 rounded-xl p-6 space-y-6">
+      <div className="md:col-span-3 bg-gray-50 rounded-xl p-6 space-y-6">
         {/* IN PROGRESS */}
         <div>
           <h3 className="font-bold mb-2">Task Status</h3>
